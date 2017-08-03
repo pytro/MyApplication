@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ptrocki.myapplication.Main2Activity">
+
+    <!-- uzyj atrybutu hint, sprawdz co sie stanie-->
+    <!--dodaj id et_weight-->
+    <!--ustaw klawiature numeryczna-->
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:hint="weight" />
+
+    <!--dodaj id et_height-->
+    <!-- uzyj atrybutu hint, sprawdz co sie stanie-->
+    <!--ustaw klawiature numeryczna-->
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:hint="height" />
+
+    <!--dodaj id btn_calc-->
+    <Button
+        android:id="@+id/btn_calc"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp" />
+
+    <!--dodaj id tv_bmi-->
+    <TextView
+        android:id="@+id/tv_bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill weight and height" />
+
+</LinearLayout>
