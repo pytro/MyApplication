@@ -17,21 +17,24 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        final EditText etHeight = (EditText) findViewById(R.id.et_height);
-        final EditText etWeight = (EditText) findViewById(R.id.et_weight);
-        Button btnCalc = (Button) findViewById(R.id.btn_calc);
-        final TextView tvBmi = (TextView) findViewById(R.id.tv_bmi);
-        btnCalc.setOnClickListener(new View.OnClickListener() {
+        final EditText /***/ = (EditText) findViewById(R.id.et_height);
+        /***/ /***/ /***/ = (EditText) findViewById(R.id.et_weight);
+        Button * = (Button) findViewById(R.id.btn_calc);
+        final TextView /***/ = (TextView) findViewById(R.id.tv_bmi);
+        /***/.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (etWeight.getText().toString().isEmpty() && etHeight.getText().toString().isEmpty()) {
-                    Toast.makeText(Main2Activity.this,"Give both values", Toast.LENGTH_SHORT).show();
+                if (/**/.getText().toString().isEmpty() && /**/.getText().toString().isEmpty()) {
+                    Toast./***/(Main2Activity.this,"Give both values", Toast.LENGTH_SHORT)./***/();
                 } else {
                     try {
-                        Float height = Float.parseFloat(etHeight.getText().toString());
-                        Float weight = Float.parseFloat(etWeight.getText().toString());
+                        //pobierz wysokosc
+                        Float height = Float.parseFloat(/***/.getText().toString());
+                        //pobierz wage
+                        /***/ weight = /***/./***/(/***/.getText()./***/);
+
                         Float bmi = weight / (height * weight);
-                        tvBmi.setText("Your BMI is " + String.valueOf(bmi));
+                        /**/.setText("Your BMI is " + String.valueOf(bmi));
                     } catch (NumberFormatException e){
                         Toast.makeText(Main2Activity.this,"Please provide number", Toast.LENGTH_SHORT).show();
                     }

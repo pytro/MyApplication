@@ -11,32 +11,32 @@
     <!--dodaj id et_weight-->
     <!--ustaw klawiature numeryczna-->
     <EditText
-        android:id="@+id/et_weight"
+        android:id="@+id//***/"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="10dp"
-        android:hint="weight" />
+        android:hint="/***/" />
 
     <!--dodaj id et_height-->
     <!-- uzyj atrybutu hint, sprawdz co sie stanie-->
     <!--ustaw klawiature numeryczna-->
     <EditText
-        android:id="@+id/et_height"
+        android:id="@+id//***/"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="10dp"
-        android:hint="height" />
+        android:hint="/***/" />
 
     <!--dodaj id btn_calc-->
     <Button
-        android:id="@+id/btn_calc"
+        android:id="@+id//***/"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_margin="10dp" />
 
     <!--dodaj id tv_bmi-->
     <TextView
-        android:id="@+id/tv_bmi"
+        android:id="@+id//***/"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fill weight and height" />
